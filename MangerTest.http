@@ -1,0 +1,36 @@
+###
+POST http://localhost:8080/manager/2
+Content-Type: application/json
+
+{
+  "licensePlate": "35BJU",
+  "onLoadingBay": false
+}
+###
+POST http://localhost:8080/manager/2
+Content-Type: application/json
+
+{
+  "licensePlate": "35HLY",
+  "onLoadingBay": false
+}
+###
+POST http://localhost:8080/manager/3
+Content-Type: application/json
+
+{
+  "licensePlate": "35BGP",
+  "onLoadingBay": false
+}
+
+###
+GET http://localhost:8080/manager/list
+Content-Type: application/json
+
+###
+GET http://localhost:8080/manager
+Content-Type: application/json
+
+###
+DELETE localhost:8080/manager/3
+Content-Type: application/json
