@@ -105,7 +105,7 @@ private fun Route.getWaitingArea() {
             call.respond(truckWaitingArea);
         } else {
             call.respondText(
-                "there are no trucks.", status = HttpStatusCode.OK
+                "there are no trucks.", status = HttpStatusCode.NotFound
             );
         }
     }
